@@ -1,0 +1,61 @@
+/* Simple, clean styles for Next Chapter Housing */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+header, nav, footer {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+}
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.banner {
+  background-color: #e0f2ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+.banner h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+.container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.gallery img {
+  width: calc(33% - 10px);
+  margin: 5px;
+  border-radius: 4px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+}
