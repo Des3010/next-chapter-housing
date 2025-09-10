@@ -18,15 +18,21 @@
     </nav>
   </header>
   <section class="container contact-form">
-    <h1>Get in Touch</h1>
-    <form>
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="tel" name="phone" placeholder="Your Phone">
-      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+  <h1>Get in Touch</h1>
+  <form action="https://formsubmit.co/admin@nextchapterhousing.co.uk" method="POST">
+    <!-- Optional: Prevent spam bots -->
+    <input type="hidden" name="_captcha" value="false">
+    <!-- Optional: Redirect after form is submitted -->
+    <input type="hidden" name="_next" value="https://nextchapterhousing.co.uk/thank-you.html">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="tel" name="phone" placeholder="Your Phone">
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+    <button type="submit">Send Message</button>
+  </form>
+</section>
   <footer>
     <p>Contact us: info@nextchapterhousing.org | 0800‑123‑4567</p>
     <p>© 2025 Next Chapter Housing. All rights reserved.</p>
